@@ -41,8 +41,8 @@ class Starter extends React.Component {
   }
 
   setTimeoutFunc(status,indisp){
+    //Reffered https://javascript.info/settimeout-setinterval and https://github.com/hemanthnhs/CS5610-WebDev-HW4/blob/master/assets/js/starter-game.jsx for timer
       var that = this;
-      //Reffered https://javascript.info/settimeout-setinterval for timer
       setTimeout(function (){
       status[indisp[0]] =  "hide";
       status[indisp[1]] = "hide";
