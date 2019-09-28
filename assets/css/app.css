@@ -1,9 +1,34 @@
 /* This file is for your main application css. */
 
-@import "~milligram/dist/milligram";
-
-.column > p {
-    padding-top: 10ex;
-    text-align: center;
+.gridDisplay {
+  border: 5px solid;
+  border-radius: 3px;
+  position: absolute;
+  top: 15%;
+  left: 3%;
+  transform: translate(240%, 40%);
+  width: 240px;
+  height:240px
+}
+.buttons{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
 }
 
+.display{
+  font-size: 1.5rem;
+}
+
+.displayGameDetails{
+text-align: center;
+font-size: 1.5rem;
+}
+
+.resetButton{
+  text-align: center;
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 180px;
+  left: 46.5%;
+
+}
